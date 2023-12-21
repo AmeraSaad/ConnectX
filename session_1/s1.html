@@ -23,5 +23,70 @@
   <a href="https://www.google.com/" target="_blank"> 
     <button>Cleck ME</button>
   </a>
+  <br>
+  <br>
+  <table border="1" width="300px" hight="500px" >
+    <thead>
+      <tr>
+        <th>Headr1</th>
+        <th>Headr2</th>
+        <th>Headr3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>row 1,cell 1</th>
+        <th>row 1,cell 2</th>
+        <th>row 1,cell 3</th>
+      </tr>
+      <tr>
+        <th>row 2,cell 1</th>
+        <th>row 2,cell 2</th>
+        <th>row 2,cell 3</th>
+      </tr>
+      <tr>
+        <th>row 3,cell 1</th>
+        <th>row 3,cell 2</th>
+        <th>row 3,cell 3</th>
+      </tr>
+
+    </tbody>
+  </table>
+  <br> 
+  <br>
+  <fieldset>
+    <br>
+    <form action="backennd page name" method="post">
+      <label for="name">Password</label>
+      <br>
+      <input type="text"  required name="name" placeholder="Enter Your Name">
+      <br> <br>
+      <label for="email">E-mail</label>
+      <br>
+      <input type="email" name="E-mail" id="email">
+      <br> <br>
+      <label for="pass">Password</label>
+      <br>
+      <input type="password" id="pass" minlength="10" maxlength="25">
+      <br>
+      <label for="">Gender</label>
+      <input type="radio" name="Gender" checked>    
+      <label for="">Male</label>
+      <input type="radio" name="Gender">    
+      <label for="">Femal</label>
+      <br>
+      <label for="C">Country</label>
+      <input list="Countries" name="Country" id="C">
+      
+      <datalist id="Countries">
+        <option value="Eygpt">
+        <option value="China">
+        <option value="Brazil">
+      </datalist>
+      <br>
+      <input type="submit">
+    </form>
+  </fieldset>
+  
 </body>
 </html>
